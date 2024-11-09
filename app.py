@@ -47,8 +47,8 @@ def prueba():
     fig = Figure()
     ax = fig.subplots()
     ax.plot(resultDF["variable"])
-    ax.set_xlabel('variable')
-    ax.set_ylabel("values")
+    ax.set_xlabel('H index')
+    ax.set_ylabel("Cuartil")
     # Save it to a temporary buffer.
     buf = BytesIO()
     fig.savefig(buf, format="png")
